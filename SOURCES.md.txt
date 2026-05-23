@@ -1,0 +1,15 @@
+## Documentation officielle
+| Source | URL | Notion apprise |
+|--------|-----|----------------|
+| TMDB API | developers.themoviedb.org | Endpoints, JSON |
+| Android Dev | developer.android.com | Cycle de vie Activity |
+| Android Dev | developer.android.com | Fichiers internes |
+| Android Dev | developer.android.com | RecyclerView |
+| Android Dev | developer.android.com | Spinner, DatePicker |
+| Glide | bumptech.github.io/glide | Images depuis URL |
+## Outils
+| Outil | Usage |
+|-------|-------|
+| Android Studio | IDE |
+| TMDB | API films |
+| GitHub | Versionning |

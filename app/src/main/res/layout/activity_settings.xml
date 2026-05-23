@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blanc">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/bordeaux"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+        <TextView android:text="@string/titre_parametres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanc"
+            android:textSize="18sp" android:textStyle="bold"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+            <TextView android:text="Ton prenom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bordeaux"
+                android:textStyle="bold"/>
+            <EditText android:id="@+id/et_prenom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Entre ton prenom"
+                android:layout_marginBottom="16dp"/>
+            <TextView android:text="Thematique"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bordeaux"
+                android:textStyle="bold"/>
+            <EditText android:id="@+id/et_thematique"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Romance"
+                android:layout_marginBottom="24dp"/>
+            <Button android:id="@+id/btn_sauvegarder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sauvegarder"
+                android:backgroundTint="@color/bordeaux"
+                android:textColor="@color/blanc"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

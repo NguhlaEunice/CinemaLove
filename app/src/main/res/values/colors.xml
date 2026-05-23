@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#880E4F</color>
+    <color name="colorPrimaryDark">#560027</color>
+    <color name="colorAccent">#E91E8C</color>
+    <color name="rose">#E91E8C</color>
+    <color name="rose_clair">#FCE4EC</color>
+    <color name="bordeaux">#880E4F</color>
+    <color name="rouge_amour">#C62828</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="gris_texte">#757575</color>
+    <color name="fond_carte">#FFF0F5</color>
+</resources>

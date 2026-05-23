@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MonCin&#233;Romance</string>
+    <string name="titre_collection">Ma Collection</string>
+    <string name="titre_recherche">Rechercher</string>
+    <string name="titre_detail">D&#233;tail du film</string>
+    <string name="titre_parametres">Param&#232;tres</string>
+    <string name="ajouter">Ajouter &#224; ma collection</string>
+    <string name="mon_avis">Mon avis sur ce film...</string>
+    <string-array name="statuts_array">
+        <item>&#192; voir</item>
+        <item>En cours</item>
+        <item>Vu</item>
+    </string-array>
+</resources>
